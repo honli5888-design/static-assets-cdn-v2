@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "issued_at": "",
+  "issued_at": "2026-06-13T16:12:30Z",
   "primary": {
     "host": "apic.ic1008.com",
     "scheme": "https",
@@ -8,14 +8,23 @@
     "api_prefix": "/api/v1"
   },
   "fallbacks": [
-    {"host": "aslcc.ac100200.cc", "scheme": "https", "port": 443, "api_prefix": "/api/v1"},
-    {"host": "static.ic1008.com", "scheme": "https", "port": 443, "api_prefix": "/api/v1"}
+    {
+      "host": "aslcc.ac100200.cc",
+      "scheme": "https",
+      "port": 443,
+      "api_prefix": "/api/v1"
+    },
+    {
+      "host": "static.ic1008.com",
+      "scheme": "https",
+      "port": 443,
+      "api_prefix": "/api/v1"
+    }
   ],
   "min_client_version": "10.6.67",
   "rotation_hint_hours": 24,
   "notes": [
-    "Bootstrap fallbacks for API cold-start failover (10.6.83+).",
-    "Admin /network/hosts can add domains without APK update.",
-    "Emergency: re-sign and push this file when all API hosts are blocked."
+    "Bootstrap fallbacks synced from Admin network_hosts.",
+    "Do not edit manually on server; change Admin API backup list instead."
   ]
 }
