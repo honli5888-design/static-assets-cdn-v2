@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "issued_at": "2026-06-23T03:18:49Z",
+  "issued_at": "2026-06-23T03:19:04Z",
   "primary": {
     "host": "apic.ic1008.com",
     "scheme": "https",
@@ -8,12 +8,6 @@
     "api_prefix": "/api/v1"
   },
   "fallbacks": [
-    {
-      "host": "cdn.ic1008.com",
-      "scheme": "https",
-      "port": 443,
-      "api_prefix": "/api/v1"
-    },
     {
       "host": "static.ic1008.com",
       "scheme": "https",
