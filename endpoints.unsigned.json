@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "issued_at": "2026-06-23T03:23:16Z",
+  "issued_at": "2026-06-23T03:24:32Z",
   "primary": {
     "host": "apic.ic1008.com",
     "scheme": "https",
@@ -28,6 +28,12 @@
     },
     {
       "host": "apcic.ic100666.com",
+      "scheme": "https",
+      "port": 443,
+      "api_prefix": "/api/v1"
+    },
+    {
+      "host": "zppc.ac100200.cc",
       "scheme": "https",
       "port": 443,
       "api_prefix": "/api/v1"
