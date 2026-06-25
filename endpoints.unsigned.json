@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "issued_at": "2026-06-25T01:23:51Z",
+  "issued_at": "2026-06-25T01:27:04Z",
   "primary": {
     "host": "apic.ic1008.com",
     "scheme": "https",
@@ -10,6 +10,12 @@
   "fallbacks": [
     {
       "host": "static.ic1008.com",
+      "scheme": "https",
+      "port": 443,
+      "api_prefix": "/api/v1"
+    },
+    {
+      "host": "alpcci.ic100666.com",
       "scheme": "https",
       "port": 443,
       "api_prefix": "/api/v1"
