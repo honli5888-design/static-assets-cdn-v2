@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "issued_at": "2026-06-25T01:31:32Z",
+  "issued_at": "2026-06-25T01:32:36Z",
   "primary": {
     "host": "apic.ic1008.com",
     "scheme": "https",
@@ -28,6 +28,12 @@
     },
     {
       "host": "cyua.ac100200.cc",
+      "scheme": "https",
+      "port": 443,
+      "api_prefix": "/api/v1"
+    },
+    {
+      "host": "ycp.ac100200.cc",
       "scheme": "https",
       "port": 443,
       "api_prefix": "/api/v1"
