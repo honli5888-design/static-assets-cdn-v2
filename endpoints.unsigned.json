@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "issued_at": "2026-07-27T07:04:47Z",
+  "issued_at": "2026-07-27T07:38:22Z",
   "primary": {
     "host": "apic.ic10058.com",
     "scheme": "https",
@@ -22,6 +22,12 @@
     },
     {
       "host": "ycp.ac100200.cc",
+      "scheme": "https",
+      "port": 443,
+      "api_prefix": "/api/v1"
+    },
+    {
+      "host": "appledd.ic10032.com",
       "scheme": "https",
       "port": 443,
       "api_prefix": "/api/v1"
