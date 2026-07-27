@@ -1,13 +1,19 @@
 {
   "schema_version": 1,
-  "issued_at": "2026-06-26T02:45:40Z",
+  "issued_at": "2026-07-27T07:02:40Z",
   "primary": {
-    "host": "apic.ic1008.com",
+    "host": "apic.ic10058.com",
     "scheme": "https",
     "port": 443,
     "api_prefix": "/api/v1"
   },
   "fallbacks": [
+    {
+      "host": "apic.ic10058.com",
+      "scheme": "https",
+      "port": 443,
+      "api_prefix": "/api/v1"
+    },
     {
       "host": "alpcci.ic100666.com",
       "scheme": "https",
@@ -16,12 +22,6 @@
     },
     {
       "host": "ycp.ac100200.cc",
-      "scheme": "https",
-      "port": 443,
-      "api_prefix": "/api/v1"
-    },
-    {
-      "host": "apic.ic10058.com",
       "scheme": "https",
       "port": 443,
       "api_prefix": "/api/v1"
